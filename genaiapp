@@ -11,7 +11,7 @@ def analyze_text_with_openai(text):
     # Function to call OpenAI's API for Sentiment Analysis and Topic Classification
     try:
         response = openai.Completion.create(
-            model="text-davinci-003",  # You might need to update the model name based on availability
+            model="gpt-3.5-turbo",  # You might need to update the model name based on availability
             prompt=f"Analyze the sentiment and categorize the topics of the following text: {text}",
             temperature=0.5,
             max_tokens=60,
