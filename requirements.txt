@@ -1,0 +1,17 @@
+streamlit==1.10.0
+openai==0.26.5
+llama-index==0.5.7
+pandas==1.4.4
+numpy==1.23.5
+pdfplumber==0.7.4
+xlrd==2.0.1
+azure-ai-textanalytics==1.0.0b6
+azure-core==1.26.1
+tqdm==4.64.1
+regex==2022.10.31
+transformers==4.25.1
+sentence-transformers==2.2.2
+nltk==3.7  
+Python-pptx==0.6.21
+langdetect==1.0.9
+streamlit-option-menu==0.3.2
